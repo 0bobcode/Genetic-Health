@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+
+# Genome data contains personal genetic information - never commit
+data/genome.txt
+data/genome_*.txt
+
+# Generated reports contain personal health data
+reports/
+
+# Intermediate data
+*.json
+
+# Large data files - too big for GitHub, download separately (see CLAUDE.md)
+data/clinvar_alleles.tsv
+data/clinvar_alleles.tsv.gz
+data/pharmgkb_annotations.zip
+
+# Binary files
+data/README.pdf
