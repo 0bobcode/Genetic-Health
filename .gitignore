@@ -11,8 +11,8 @@ data/genome_*.txt
 # Generated reports contain personal health data
 reports/
 
-# Intermediate data
-*.json
+# Intermediate data (do not use blanket *.json — breaks package.json in app/frontend)
+reports/*.json
 
 # Large data files - too big for GitHub, download separately (see CLAUDE.md)
 data/clinvar_alleles.tsv
